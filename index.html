@@ -1,0 +1,370 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" href="style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Oswald:wght@200..700&family=Roboto:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
+    <title>YouTube</title>
+</head>
+<body>
+    <header class="header">
+        <!--  -->
+        <div class="header_start">
+            <button class="header_start_menu">  
+                <img src="./assets/menu.svg">
+              </button>
+            <a class= "header_start_ytlogo" href="#">
+                <img src="./assets/logo.svg" class="header_start_logo">
+            </a>
+        </div>
+        <!--  -->
+        <div class="header_center">
+            <div class="header_center_searchbar">
+                <input placeholder="Введите запрос">
+                <button class="header_center_search"><img src="./assets/search.svg" class="header_center_img"></button>
+            </div>
+            <button class="header_center_micro"><img src="./assets/audio.svg" class="header_center_img"></button>
+        </div>
+        <!--  -->
+        <div class="header_end">
+            <button class="header_end_dots"><img src="./assets/dots.svg"></button>
+            <button class="enter">
+                <svg xmlns="http://www.w3.org/2000/svg" height="24" viewBox="0 0 24 24" width="24" focusable="false" aria-hidden="true" style="pointer-events: none; display: inherit; width: 24px; height: 24px;"><path d="M12 2C6.48 2 2 6.48 2 12s4.48 10 10 10 10-4.48 10-10S17.52 2 12 2zm0 1c4.96 0 9 4.04 9 9 0 1.42-.34 2.76-.93 3.96-1.53-1.72-3.98-2.89-7.38-3.03A3.996 3.996 0 0016 9c0-2.21-1.79-4-4-4S8 6.79 8 9c0 1.97 1.43 3.6 3.31 3.93-3.4.14-5.85 1.31-7.38 3.03C3.34 14.76 3 13.42 3 12c0-4.96 4.04-9 9-9zM9 9c0-1.65 1.35-3 3-3s3 1.35 3 3-1.35 3-3 3-3-1.35-3-3zm3 12c-3.16 0-5.94-1.64-7.55-4.12C6.01 14.93 8.61 13.9 12 13.9c3.39 0 5.99 1.03 7.55 2.98C17.94 19.36 15.16 21 12 21z"></path></svg>
+                <span>Войти</span>
+            </button>
+        </div>
+    </header>
+    <aside class="sidebar">
+        <section>
+            <ul type=none class="sidebar_block">
+                <li>
+                    <a href="#" id="home" class="sidebar_block_elem">
+                        <img src="./assets/home.svg">
+                        <span>Главная</span>
+                    </a>
+                </li>
+                <li>
+                    <a href="#" class="sidebar_block_elem">
+                        <img src="./assets/shorts.svg">
+                        <span>Shorts</span>
+                    </a>
+                </li>
+                <li>
+                    <a href="#" class="sidebar_block_elem">
+                        <img src="./assets/sub.svg">
+                        <span>Подписки</span>
+                    </a>
+                </li>
+        </section>
+        <section>
+            <ul type=none class="sidebar_block">
+                <li>
+                    <a href="#" class="sidebar_block_elem">
+                        <img src="./assets/user.svg">
+                        <span>Вы</span>
+                    </a>
+                </li>
+                <li>
+                    <a href="#" class="sidebar_block_elem">
+                        <img src="./assets/history.svg">
+                        <span>История</span>
+                    </a>
+                </li>
+        </section>
+        <section class="sidebar_forlikes">
+            <span>Вы сможете ставить отметки "Нравится", писать комментарии и подписываться на каналы.</span>
+            <button class="enter">
+                <svg xmlns="http://www.w3.org/2000/svg" height="24" viewBox="0 0 24 24" width="24" focusable="false" aria-hidden="true" style="pointer-events: none; display: inherit; width: 24px; height: 24px;"><path d="M12 2C6.48 2 2 6.48 2 12s4.48 10 10 10 10-4.48 10-10S17.52 2 12 2zm0 1c4.96 0 9 4.04 9 9 0 1.42-.34 2.76-.93 3.96-1.53-1.72-3.98-2.89-7.38-3.03A3.996 3.996 0 0016 9c0-2.21-1.79-4-4-4S8 6.79 8 9c0 1.97 1.43 3.6 3.31 3.93-3.4.14-5.85 1.31-7.38 3.03C3.34 14.76 3 13.42 3 12c0-4.96 4.04-9 9-9zM9 9c0-1.65 1.35-3 3-3s3 1.35 3 3-1.35 3-3 3-3-1.35-3-3zm3 12c-3.16 0-5.94-1.64-7.55-4.12C6.01 14.93 8.61 13.9 12 13.9c3.39 0 5.99 1.03 7.55 2.98C17.94 19.36 15.16 21 12 21z"></path></svg>
+                <span>Войти</span>
+            </button>
+        </section>
+        <section>
+            <div class="sidebar_title">Навигатор</div>
+            <ul type=none class="sidebar_block">
+                <li>
+                    <a href="#" class="sidebar_block_elem">
+                        <img src="./assets/trends.svg">
+                        <span>В тренде</span>
+                    </a>
+                </li>
+                <li>
+                    <a href="#" class="sidebar_block_elem">
+                        <img src="./assets/music.svg">
+                        <span>Музыка</span>
+                    </a>
+                </li>
+                <li>
+                    <a href="#" class="sidebar_block_elem">
+                        <img src="./assets/films.svg">
+                        <span>Фильмы</span>
+                    </a>
+                </li>
+                <li>
+                    <a href="#" class="sidebar_block_elem">
+                        <img src="./assets/translations.svg">
+                        <span>Трансляции</span>
+                    </a>
+                </li>
+                <li>
+                    <a href="#" class="sidebar_block_elem">
+                        <img src="./assets/games.svg">
+                        <span>Видеоигры</span>
+                    </a>
+                </li>
+                <li>
+                    <a href="#" class="sidebar_block_elem">
+                        <img src="./assets/sport.svg">
+                        <span>Спорт</span>
+                    </a>
+                </li>
+        </section>
+        <section>
+            <div class="sidebar_title">Другие возможности</div>
+            <ul type=none class="sidebar_block">
+                <li>
+                    <a href="#" class="sidebar_block_elem">
+                        <img src="./assets/YTMusic.svg">
+                        <span>YouTube Music</span>
+                    </a>
+                </li>
+                <li>
+                    <a href="#" class="sidebar_block_elem">
+                        <img src="./assets/YTKids.svg">
+                        <span>YouTube детям</span>
+                    </a>
+                </li>
+        </section>
+        <section>
+            <ul type=none class="sidebar_block">
+                <li>
+                    <a href="#" class="sidebar_block_elem">
+                        <img src="./assets/settings.svg">
+                        <span>Настройки</span>
+                    </a>
+                </li>
+                <li>
+                    <a href="#" class="sidebar_block_elem">
+                        <img src="./assets/reports.svg">
+                        <span>Жалобы</span>
+                    </a>
+                </li>
+                <li>
+                    <a href="#" class="sidebar_block_elem">
+                        <img src="./assets/reference.svg">
+                        <span>Справка</span>
+                    </a>
+                </li>
+                <li>
+                    <a href="#" class="sidebar_block_elem">
+                        <img src="./assets/feedback.svg">
+                        <span>Отправить отзыв</span>
+                    </a>
+                </li>
+        </section>
+        <footer class="footer">
+           <div class="footer_block">
+                <a href="#">О сервисе</a>
+                <a href="#">Прессе</a>
+                <a href="#">Авторсие права</a>
+                <a href="#">Связаться с нами</a>
+                <a href="#">Авторам</a>
+                <a href="#">Рекламодателям</a>
+                <a href="#">Разработчикам</a>
+           </div>
+           <div class="footer_block">
+                <a href="#">Условия использования</a>
+                <a href="#">Конфиденциальность</a>
+                <a href="#">Правила и безопасность</a>
+                <a href="#">Как работает YouTube</a>
+                <a href="#">Тестирование новых функций</a>
+            </div>
+            <div class="footer_copyright">© 2025 Google LLC</div>
+        </footer>
+    </aside>
+    <section class="categories">
+        <div class="categories_container">
+            <a href="#" id="current_elem" class="categories_elem">Все</a>
+            <a href="#" class="categories_elem">Видеоигры</a>
+            <a href="#" class="categories_elem">Музыка</a>
+            <a href="#" class="categories_elem">Сейчас в эфире</a>
+            <a href="#" class="categories_elem">Джемы</a>
+            <a href="#" class="categories_elem">Подкасты</a>
+            <a href="#" class="categories_elem">Экшен и приключения</a>
+            <a href="#" class="categories_elem">Мультфильмы</a>
+            <a href="#" class="categories_elem">Юмор</a>
+            <a href="#" class="categories_elem">Наука и техника</a>
+            <a href="#" class="categories_elem">Автомобили</a>
+            <a href="#" class="categories_elem">Недавно опубликованное</a>
+            <a href="#" class="categories_elem">Просмотренное</a>
+            <a href="#" class="categories_elem">Новое для вас</a>
+        </div>
+    </section>
+    <main class="videos-container">
+        <div class="video">
+            <img src="https://i.ytimg.com/vi/98_UngKZfKo/maxresdefault.jpg" class="thumbnail">
+            <div class="video-details">
+                <img src="https://i.ytimg.com/vi/98_UngKZfKo/maxresdefault.jpg" class="channel-icon">
+                <div class="video-info">
+                    <h3>Lorem Ipsum</h3>
+                    <p>User</p>
+                    <p>1 млн просмотров • 10 месяцев назад</p>
+                </div>
+            </div> 
+        </div>
+        <div class="video">
+            <img src="https://i.ytimg.com/vi/98_UngKZfKo/maxresdefault.jpg" class="thumbnail">
+            <div class="video-details">
+                <img src="https://i.ytimg.com/vi/98_UngKZfKo/maxresdefault.jpg" class="channel-icon">
+                <div class="video-info">
+                    <h3>Lorem Ipsum</h3>
+                    <p>User</p>
+                    <p>1 млн просмотров • 10 месяцев назад</p>
+                </div>
+            </div> 
+        </div> 
+        <div class="video">
+            <img src="https://i.ytimg.com/vi/98_UngKZfKo/maxresdefault.jpg" class="thumbnail">
+            <div class="video-details">
+                <img src="https://i.ytimg.com/vi/98_UngKZfKo/maxresdefault.jpg" class="channel-icon">
+                <div class="video-info">
+                    <h3>Lorem Ipsum</h3>
+                    <p>User</p>
+                    <p>1 млн просмотров • 10 месяцев назад</p>
+                </div>
+            </div> 
+        </div> 
+        <div class="video">
+            <img src="https://i.ytimg.com/vi/98_UngKZfKo/maxresdefault.jpg" class="thumbnail">
+            <div class="video-details">
+                <img src="https://i.ytimg.com/vi/98_UngKZfKo/maxresdefault.jpg" class="channel-icon">
+                <div class="video-info">
+                    <h3>Lorem Ipsum</h3>
+                    <p>User</p>
+                    <p>1 млн просмотров • 10 месяцев назад</p>
+                </div>
+            </div> 
+        </div> 
+        <div class="video">
+            <img src="https://i.ytimg.com/vi/98_UngKZfKo/maxresdefault.jpg" class="thumbnail">
+            <div class="video-details">
+                <img src="https://i.ytimg.com/vi/98_UngKZfKo/maxresdefault.jpg" class="channel-icon">
+                <div class="video-info">
+                    <h3>Lorem Ipsum</h3>
+                    <p>User</p>
+                    <p>1 млн просмотров • 10 месяцев назад</p>
+                </div>
+            </div> 
+        </div> 
+        <div class="video">
+            <img src="https://i.ytimg.com/vi/98_UngKZfKo/maxresdefault.jpg" class="thumbnail">
+            <div class="video-details">
+                <img src="https://i.ytimg.com/vi/98_UngKZfKo/maxresdefault.jpg" class="channel-icon">
+                <div class="video-info">
+                    <h3>Lorem Ipsum</h3>
+                    <p>User</p>
+                    <p>1 млн просмотров • 10 месяцев назад</p>
+                </div>
+            </div> 
+        </div> 
+        <div class="video">
+            <img src="https://i.ytimg.com/vi/98_UngKZfKo/maxresdefault.jpg" class="thumbnail">
+            <div class="video-details">
+                <img src="https://i.ytimg.com/vi/98_UngKZfKo/maxresdefault.jpg" class="channel-icon">
+                <div class="video-info">
+                    <h3>Lorem Ipsum</h3>
+                    <p>User</p>
+                    <p>1 млн просмотров • 10 месяцев назад</p>
+                </div>
+            </div> 
+        </div> 
+        <div class="video">
+            <img src="https://i.ytimg.com/vi/98_UngKZfKo/maxresdefault.jpg" class="thumbnail">
+            <div class="video-details">
+                <img src="https://i.ytimg.com/vi/98_UngKZfKo/maxresdefault.jpg" class="channel-icon">
+                <div class="video-info">
+                    <h3>Lorem Ipsum</h3>
+                    <p>User</p>
+                    <p>1 млн просмотров • 10 месяцев назад</p>
+                </div>
+            </div> 
+        </div> 
+        <div class="video">
+            <img src="https://i.ytimg.com/vi/98_UngKZfKo/maxresdefault.jpg" class="thumbnail">
+            <div class="video-details">
+                <img src="https://i.ytimg.com/vi/98_UngKZfKo/maxresdefault.jpg" class="channel-icon">
+                <div class="video-info">
+                    <h3>Lorem Ipsum</h3>
+                    <p>User</p>
+                    <p>1 млн просмотров • 10 месяцев назад</p>
+                </div>
+            </div> 
+        </div> 
+        <div class="video">
+            <img src="https://i.ytimg.com/vi/98_UngKZfKo/maxresdefault.jpg" class="thumbnail">
+            <div class="video-details">
+                <img src="https://i.ytimg.com/vi/98_UngKZfKo/maxresdefault.jpg" class="channel-icon">
+                <div class="video-info">
+                    <h3>Lorem Ipsum</h3>
+                    <p>User</p>
+                    <p>1 млн просмотров • 10 месяцев назад</p>
+                </div>
+            </div> 
+        </div>
+        <div class="video">
+            <img src="https://i.ytimg.com/vi/98_UngKZfKo/maxresdefault.jpg" class="thumbnail">
+            <div class="video-details">
+                <img src="https://i.ytimg.com/vi/98_UngKZfKo/maxresdefault.jpg" class="channel-icon">
+                <div class="video-info">
+                    <h3>Lorem Ipsum</h3>
+                    <p>User</p>
+                    <p>1 млн просмотров • 10 месяцев назад</p>
+                </div>
+            </div> 
+        </div> 
+        <div class="video">
+            <img src="https://i.ytimg.com/vi/98_UngKZfKo/maxresdefault.jpg" class="thumbnail">
+            <div class="video-details">
+                <img src="https://i.ytimg.com/vi/98_UngKZfKo/maxresdefault.jpg" class="channel-icon">
+                <div class="video-info">
+                    <h3>Lorem Ipsum</h3>
+                    <p>User</p>
+                    <p>1 млн просмотров • 10 месяцев назад</p>
+                </div>
+            </div> 
+        </div> 
+        <div class="video">
+            <img src="https://i.ytimg.com/vi/98_UngKZfKo/maxresdefault.jpg" class="thumbnail">
+            <div class="video-details">
+                <img src="https://i.ytimg.com/vi/98_UngKZfKo/maxresdefault.jpg" class="channel-icon">
+                <div class="video-info">
+                    <h3>Lorem Ipsum</h3>
+                    <p>User</p>
+                    <p>1 млн просмотров • 10 месяцев назад</p>
+                </div>
+            </div> 
+        </div> 
+        <div class="video">
+            <img src="https://i.ytimg.com/vi/98_UngKZfKo/maxresdefault.jpg" class="thumbnail">
+            <div class="video-details">
+                <img src="https://i.ytimg.com/vi/98_UngKZfKo/maxresdefault.jpg" class="channel-icon">
+                <div class="video-info">
+                    <h3>Lorem Ipsum</h3>
+                    <p>User</p>
+                    <p>1 млн просмотров • 10 месяцев назад</p>
+                </div>
+            </div> 
+        </div> 
+        <div class="video">
+            <img src="https://i.ytimg.com/vi/98_UngKZfKo/maxresdefault.jpg" class="thumbnail">
+            <div class="video-details">
+                <img src="https://i.ytimg.com/vi/98_UngKZfKo/maxresdefault.jpg" class="channel-icon">
+                <div class="video-info">
+                    <h3>Lorem Ipsum</h3>
+                    <p>User</p>
+                    <p>1 млн просмотров • 10 месяцев назад</p>
+                </div>
+            </div> 
+        </div> 
+    </main>
+</body>
+</html>
